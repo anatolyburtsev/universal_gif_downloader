@@ -15,7 +15,7 @@ extrf_3 = "cc"
 
 post_prefix = "http://www.ifun.ru"
 file_prefix = "http://www.ifun.ru"
-files_dir = "ifun_gifs"
+files_dir = "gifs"
 file_downloading_limit = 5
 
 start_page = 1

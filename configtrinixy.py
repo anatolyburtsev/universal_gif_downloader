@@ -15,7 +15,7 @@ extrf_3 = "newsarea"
 
 post_prefix = ""
 file_prefix = "http://trinixy.ru/"
-files_dir = "trinixy_gifs"
+files_dir = "gifs"
 file_downloading_limit = 5
 
 start_page = 1
