@@ -115,9 +115,9 @@ def save_file(url_to_file):
     return result
 
 
-def dump_gifs(max_page=config.max_page):
+def dump_gifs(start_page=config.start_page, max_page=config.max_page):
     assert type(max_page) == int
-    for page_number in range(max_page + 1):
+    for page_number in range(start_page, max_page + 1):
         for url_to_post in extract_posts_from_page(page_number):
             for url_to_gif in extract_files_from_post_ifun(url_to_post):
                 try:

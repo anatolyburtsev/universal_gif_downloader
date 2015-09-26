@@ -14,4 +14,8 @@ extrf_2 = 'class'
 extrf_3 = "cc"
 
 post_prefix = "http://www.ifun.ru"
+file_prefix = "http://www.ifun.ru"
 files_dir = "ifun_gifs"
+
+start_page = 1
+max_page = 31

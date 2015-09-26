@@ -17,4 +17,5 @@ post_prefix = ""
 file_prefix = "http://trinixy.ru/"
 files_dir = "trinixy_gifs"
 
+start_page = 1
 max_page = 31
